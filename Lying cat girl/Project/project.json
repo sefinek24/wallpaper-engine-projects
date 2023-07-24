@@ -1,0 +1,27 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Cute cat girl\nかわいい \n猫耳娘\n女の子\n猫耳\n獣耳\n美少女",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.59216 0.40000 0.29804"
+			}
+		}
+	},
+	"preview" : "preview.gif",
+	"snapshotformat" : 0,
+	"snapshotoverlay" : "",
+	"tags" : [ "Anime" ],
+	"title" : "Lying Neko Catgirl",
+	"type" : "scene",
+	"version" : 1,
+	"workshopid" : "3008352692",
+	"workshopurl" : "steam://url/CommunityFilePage/3008352692"
+}

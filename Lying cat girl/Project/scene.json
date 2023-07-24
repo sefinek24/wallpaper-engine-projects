@@ -1,0 +1,270 @@
+{
+	"camera" : 
+	{
+		"center" : "-44.97866 9.49318 0.00000",
+		"eye" : "-44.97866 9.49318 1.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.79608 0.46667 0.29412",
+		"bloom" : true,
+		"bloomhdrfeather" : 0.13,
+		"bloomhdriterations" : 8,
+		"bloomhdrscatter" : 1.66,
+		"bloomhdrstrength" : 1.55,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 0.14,
+		"bloomthreshold" : 0.46000001,
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.5,
+		"cameraparallaxdelay" : 0.1,
+		"cameraparallaxmouseinfluence" : 0.5,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 3.0,
+		"clearcolor" : "0.00000 0.00000 0.00000",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"hdr" : false,
+		"nearz" : 0.0099999998,
+		"orthogonalprojection" : 
+		{
+			"height" : 1440,
+			"width" : 2560
+		},
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 218,
+			"image" : "models/bg.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "bg",
+			"origin" : "1280.00000 720.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.93500 0.93500 1.00000",
+			"size" : "2743.00000 1543.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.49157",
+			"id" : 64,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.89999998,
+				"colorn" : "0.92549 0.94902 1.00000",
+				"id" : 65
+			},
+			"locktransforms" : false,
+			"name" : "Rain refractive",
+			"origin" : "397.07269 1133.28540 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/rainrefractive.json",
+			"scale" : "1.00000 1.00000 1.00000",
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 345,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -0.57026049,
+								"perspective" : 0,
+								"scale" : 44.56,
+								"speed" : 2.24,
+								"strength" : 0.02
+							},
+							"id" : 346
+						}
+					],
+					"visible" : false
+				}
+			],
+			"id" : 214,
+			"image" : "models/alfa.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "alfa",
+			"origin" : "1280.00000 720.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "2560.00000 1440.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alpha" : 0.75999999,
+			"anchor" : "none",
+			"angles" : "0.00000 -0.00000 0.47284",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"brightness" : 1.0,
+			"color" : "0.80784 0.54118 0.41569",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"font" : "fonts/Inkfree.ttf",
+			"horizontalalign" : "center",
+			"id" : 26,
+			"ledsource" : false,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"locktransforms" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "Clock",
+			"opaquebackground" : false,
+			"origin" : "415.09866 1261.38159 0.00000",
+			"padding" : 32,
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"pointsize" : 32.0,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "328.00000 165.00000",
+			"solid" : true,
+			"text" : 
+			{
+				"script" : "'use strict';\n\nexport var scriptProperties = createScriptProperties()\n\t// Whether you want a 24h or 12h style format\n\t.addCheckbox({\n\t\tname: 'use24hFormat',\n\t\tlabel: 'ui_editor_properties_use_24h_format',\n\t\tvalue: true\n\t})\n\t// Whether you want to see the seconds or not\n\t.addCheckbox({\n\t\tname: 'showSeconds',\n\t\tlabel: 'ui_editor_properties_show_seconds',\n\t\tvalue: false\n\t})\n\t// This will be used to separate each element\n\t.addText({\n\t\tname: 'delimiter',\n\t\tlabel: 'ui_editor_properties_delimiter',\n\t\tvalue: ':'\n\t})\n\t.finish();\n\n/**\n * @param {String} value (for property 'text')\n */\nexport function update(value) {\n\tlet time = new Date();\n\tvar hours = time.getHours();\n\tif (!scriptProperties.use24hFormat) {\n\t\thours %= 12;\n\t\tif (hours == 0) {\n\t\t\thours = 12;\n\t\t}\n\t}\n\thours = (\"00\" + hours).slice(-2);\n\tlet minutes = (\"00\" + time.getMinutes()).slice(-2);\n\tvalue = hours + scriptProperties.delimiter + minutes;\n\tif (scriptProperties.showSeconds) {\n\t\tlet seconds = (\"00\" + time.getSeconds()).slice(-2);\n\t\tvalue += scriptProperties.delimiter + seconds;\n\t}\n\treturn value;\n}\n",
+				"scriptproperties" : 
+				{
+					"delimiter" : ":",
+					"showSeconds" : false,
+					"use24hFormat" : true
+				},
+				"value" : "00:00"
+			},
+			"verticalalign" : "center",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 81,
+			"instanceoverride" : null,
+			"locktransforms" : false,
+			"name" : "Trails 2",
+			"origin" : "1280.00000 720.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/trail_1.json",
+			"scale" : "1.00000 1.00000 1.00000",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.11993",
+			"id" : 56,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.94999999,
+				"colorn" : "1.00000 0.94902 0.63922",
+				"count" : 0.93000001,
+				"id" : 57,
+				"lifetime" : 0.93000001,
+				"rate" : 0.75999999,
+				"size" : 0.70999998,
+				"speed" : 0.63
+			},
+			"locktransforms" : false,
+			"name" : "Light shafts 0",
+			"origin" : "2464.14429 1104.78735 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/light_shafts_0.json",
+			"scale" : "1.04755 0.95668 1.00000",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 132,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.30000001,
+				"colorn" : "1.00000 0.94902 0.63922",
+				"id" : 153,
+				"rate" : 0.52999997
+			},
+			"locktransforms" : false,
+			"name" : "Fog 1",
+			"origin" : "1280.00000 720.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/fog1.json",
+			"scale" : "1.00000 1.00000 1.00000",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.52476",
+			"id" : 171,
+			"instanceoverride" : 
+			{
+				"colorn" : "0.94902 0.75686 0.54902",
+				"id" : 172
+			},
+			"locktransforms" : false,
+			"name" : "Shooting star",
+			"origin" : "199.54318 1200.70325 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/shootingstar.json",
+			"scale" : "1.00000 0.24185 1.00000",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 222,
+			"instanceoverride" : null,
+			"locktransforms" : false,
+			"name" : "Dust motes",
+			"origin" : "1280.00000 720.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/dust_motes_0.json",
+			"scale" : "1.00000 1.00000 1.00000",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 360,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.67000002,
+				"id" : 361
+			},
+			"locktransforms" : false,
+			"name" : "Ember",
+			"origin" : "1280.00000 -6.75818 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/ember.json",
+			"scale" : "1.00000 1.00000 1.00000",
+			"visible" : true
+		}
+	],
+	"version" : 1
+}

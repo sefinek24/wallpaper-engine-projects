@@ -1,0 +1,19 @@
+{
+	"dependencies" : 
+	[
+		"materials/workshop/2795521260/effects/color_grading.json",
+		"shaders/workshop/2795521260/effects/color_grading.frag",
+		"shaders/workshop/2795521260/effects/color_grading.vert"
+	],
+	"editable" : false,
+	"group" : "localeffects",
+	"name" : "Color grading",
+	"passes" : 
+	[
+		{
+			"material" : "materials/workshop/2795521260/effects/color_grading.json"
+		}
+	],
+	"replacementkey" : "color_grading",
+	"version" : 1
+}
