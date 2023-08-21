@@ -1,17 +1,61 @@
 {
 	"contentrating" : "Everyone",
-	"description" : "Cute cat girl\nかわいい \n猫耳娘\n女の子\n猫耳\n獣耳\n美少女",
+	"description" : "Cute cat girl\r\nかわいい \r\n猫耳娘\r\n女の子\r\n猫耳\r\n獣耳\r\n美少女\r\n\r\nMy website: https://sefinek.net",
 	"file" : "scene.json",
 	"general" : 
 	{
 		"properties" : 
 		{
+			"_24hformat" : 
+			{
+				"index" : 0,
+				"order" : 100,
+				"text" : "24h format?",
+				"type" : "bool",
+				"value" : true
+			},
+			"clockcolor" : 
+			{
+				"index" : 3,
+				"order" : 103,
+				"text" : "Clock color",
+				"type" : "color",
+				"value" : "0.807843137254902 0.5411764705882353 0.41568627450980394"
+			},
+			"clockopacity" : 
+			{
+				"fraction" : false,
+				"index" : 4,
+				"max" : 1,
+				"min" : 0,
+				"order" : 104,
+				"text" : "Clock opacity",
+				"type" : "slider",
+				"value" : 0.76
+			},
+			"delimiter" : 
+			{
+				"index" : 2,
+				"order" : 102,
+				"text" : "Delimiter",
+				"type" : "textinput",
+				"value" : ":"
+			},
 			"schemecolor" : 
 			{
-				"order" : 0,
+				"index" : 0,
+				"order" : 100,
 				"text" : "ui_browse_properties_scheme_color",
 				"type" : "color",
 				"value" : "0.59216 0.40000 0.29804"
+			},
+			"showseconds" : 
+			{
+				"index" : 1,
+				"order" : 101,
+				"text" : "Show seconds?",
+				"type" : "bool",
+				"value" : false
 			}
 		}
 	},
@@ -21,7 +65,8 @@
 	"tags" : [ "Anime" ],
 	"title" : "Lying Neko Catgirl",
 	"type" : "scene",
-	"version" : 1,
+	"version" : 3,
+	"visibility" : "public",
 	"workshopid" : "3008352692",
 	"workshopurl" : "steam://url/CommunityFilePage/3008352692"
 }

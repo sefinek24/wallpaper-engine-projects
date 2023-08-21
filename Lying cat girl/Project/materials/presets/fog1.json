@@ -2,12 +2,17 @@
 	"passes" : 
 	[
 		{
+			"alphawriting" : "default",
 			"blending" : "additive",
+			"combos" : 
+			{
+				"REFRACT" : 0
+			},
 			"cullmode" : "nocull",
 			"depthtest" : "disabled",
 			"depthwrite" : "disabled",
 			"shader" : "genericparticle",
-			"textures" : [ "particle/fog/fog1" ]
+			"textures" : [ "particle/fog/fog1", null ]
 		}
 	]
 }

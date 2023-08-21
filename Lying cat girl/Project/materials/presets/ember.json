@@ -2,14 +2,22 @@
 	"passes" : 
 	[
 		{
+			"alphawriting" : "default",
 			"blending" : "additive",
-			"combos" : {},
-			"constantshadervalues" : {},
+			"combos" : 
+			{
+				"REFRACT" : 0
+			},
+			"constantshadervalues" : 
+			{
+				"ui_editor_properties_overbright" : 3.11,
+				"ui_editor_properties_refract_amount" : 1
+			},
 			"cullmode" : "nocull",
 			"depthtest" : "disabled",
 			"depthwrite" : "disabled",
 			"shader" : "genericparticle",
-			"textures" : [ "particle/halo_2" ]
+			"textures" : [ "particle/halo_4", null ]
 		}
 	]
 }

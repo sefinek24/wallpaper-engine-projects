@@ -54,14 +54,14 @@
 	[
 		{
 			"id" : 2,
-			"max" : 10,
-			"min" : 3,
+			"max" : 300,
+			"min" : 100,
 			"name" : "lifetimerandom"
 		},
 		{
 			"id" : 3,
-			"max" : 10,
-			"min" : 5,
+			"max" : 16,
+			"min" : 6,
 			"name" : "sizerandom"
 		},
 		{
@@ -72,13 +72,13 @@
 		},
 		{
 			"id" : 5,
-			"max" : "217 142 107",
-			"min" : "228 186 137",
+			"max" : "109 58 39",
+			"min" : "253 174 117",
 			"name" : "colorrandom"
 		}
 	],
 	"material" : "materials/presets/dust_motes_0.json",
-	"maxcount" : 128,
+	"maxcount" : 200,
 	"operator" : 
 	[
 		{

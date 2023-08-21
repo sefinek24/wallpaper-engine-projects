@@ -1,4 +1,5 @@
 {
+	"animationmode" : "sequence",
 	"controlpoint" : 
 	[
 		{
@@ -53,6 +54,7 @@
 			"rate" : 32
 		}
 	],
+	"flags" : 0,
 	"initializer" : 
 	[
 		{
@@ -64,18 +66,19 @@
 		{
 			"id" : 3,
 			"max" : 15,
-			"min" : 10,
+			"min" : 20,
 			"name" : "sizerandom"
 		},
 		{
+			"exponent" : 1,
 			"id" : 4,
-			"max" : "230 142 76",
-			"min" : "123 65 36",
+			"max" : "158 71 42",
+			"min" : "255 204 145",
 			"name" : "colorrandom"
 		}
 	],
 	"material" : "materials/presets/trail_1.json",
-	"maxcount" : 128,
+	"maxcount" : 256,
 	"operator" : 
 	[
 		{
@@ -84,8 +87,8 @@
 			"name" : "movement"
 		},
 		{
-			"fadeintime" : 0.1,
-			"fadeouttime" : 0.1,
+			"fadeintime" : 0.30000001,
+			"fadeouttime" : 0.2,
 			"id" : 7,
 			"name" : "alphafade"
 		}
